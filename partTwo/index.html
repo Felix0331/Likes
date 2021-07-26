@@ -1,18 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Likes One</title>
+    <title>Likes Two</title>
 </head>
-<body>
-    <div class="nav-bar">
-        <h1>Network</h1>
-    </div>
 
+<body>
+    <!-- Top -->
+    <div class="container">
+        <div class="head-bar">
+            <h1>Network</h1>
+        </div>
+        <h1 class="your-feed">Your Feed</h1>
+
+        <!-- Main -->
+        <div class="main">
+            <div class="left-main">
+                <img src="./images/user-circle copy.png" alt="">
+                <a href="#">add avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <div class="right-main">
+                <div class="user-card">
+                    <div class="top-info">
+                        <h3>Some Person</h3>
+                        <p id="num-likes">0 Like(s)</p>
+                        <button onclick="hitLike()">Like</button>
+                    </div>
+                    <div class="bottom-info">
+                        <p>Some random text that does not matter what it says.</p>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="top-info">
+                        <h3>Second Person</h3>
+                        <p id="num-likes">0 Like(s)</p>
+                        <button onclick="hitLike()">Like</button>
+                    </div>
+                    <div class="bottom-info">
+                        <p>Some random text that does not matter what it says.</p>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="top-info">
+                        <h3>Third Person</h3>
+                        <p id="num-likes">0 Like(s)</p>
+                        <button onclick="hitLike()">Like</button>
+                    </div>
+                    <div class="bottom-info">
+                        <p>Some random text that does not matter what it says.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

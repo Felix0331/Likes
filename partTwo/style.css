@@ -1,13 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.nav-bar{
-    width: 80%;
+.container{
+    width: 85%;
     margin: 0 auto;
-    background-color: #222;
-    color: #ffff;
-}   
-.nav-bar h1{
-    margin: 10px 30px;
+
+}
+.head-bar{
+    background-color: black;
+    color: white;
+
+    margin: 0 auto;
+}
+.head-bar h1{
+    margin: 20px 30px;
+}
+.your-feed{
+    margin: 0 auto;
+}
+.user-card{
+    border: 2px solid black;
+    margin: 20px auto;
+    width: 500px;
+}
+.top-info{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.bottom-info{
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.top-info button{
+    background-color: yellow;
+    height: 30px;
+    box-shadow: 3px 2px black;
+    border: 1px solid black;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.left-main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.left-main img{
+    height: 50px;
+    width: 50px;
 }
