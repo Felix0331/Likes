@@ -1,6 +1,6 @@
-var counter =0;
-function hitLike(){
-    console.log(counter);
-    ++counter;
-    document.getElementById("num-likes").innerHTML= counter+ " Like(s)"
+var postLikes = [0,0,0];
+
+function hitLike(id){
+    postLikes[id]++;
+    document.getElementById(id).innerHTML= postLikes[id]+ " Like(s)"
 };
